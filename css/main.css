@@ -1,0 +1,136 @@
+body{
+    line-height: 2;
+}
+.container-fluid{
+    padding-left:90px; 
+    padding-right:90px;
+}
+hr.colored{
+    border-color: #D34212;
+}
+a{
+    color: #D34212;
+}
+/* 選單navbar */
+#mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active, #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:focus, #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:hover{
+    background:#099f42;
+    border-radius: 0;
+    color: #D34212;
+}
+#mainNav{
+    background-color: #0aaf49;
+}
+#mainNav.navbar-shrink {
+    padding: 0px 0;
+    background-color:#0aaf49; 
+}
+/* 關於我們 */
+.text-center h2{
+    font-size: 36px;
+}
+.txt_h5 img{
+    width: 100%;
+    height: 250px;
+}
+.mb-0{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 2;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.c_f{
+    padding: 0;
+}
+.c_f_txt{
+    padding-left:  0;
+    padding-right: 0;
+}
+/* 我們團隊 */
+.team-caption p{
+   font-size: 16px;
+}
+/* slogn txt */
+.call-to-action{
+    padding: 70px 0;
+    background-color:#0aaf49; 
+    /* letter-spacing: 1.4px;
+    line-height: 1.5; */
+}
+.call-to-action span.quote{
+    font-size: 16px;
+}
+.text-primary {
+    font-size: 23px;
+
+}
+/* 商品一覽 */
+.portfolio-gallery .item{
+    width: 100%;
+    height: 450px;
+}
+/* 地點 */
+.page-section .container .row{
+    
+}
+.pricing{
+    background-color:#0aaf49;
+}
+.pricing .pricing-item{
+    /* height: 100%; */
+    box-shadow: 0px 0px 30px 5px #077f35;
+}
+/* 沉香課程 */
+
+
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item{
+    /* width: 23%; */
+}
+
+/* 新聞報導 */
+.report p{
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 1.4px;
+    line-height: 1.5;
+}
+.owl-carousel.owl-theme .owl-controls .owl-prev, .owl-carousel.owl-theme .owl-controls .owl-next {
+    background-color:#D34212;
+}
+.call-to-action p{
+    max-width: 70%;
+    margin: auto;
+}
+/* style="padding-left:10px;" */
+
+/* 訂閱 */
+.bg-inverse{
+    background-color: #0aaf49 !important;
+}
+/* top */
+.btn-full-width{
+    background-color: #0aaf49;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    div.container-fluid {
+        padding-left:20px;
+        padding-right: 20px;
+    }
+    .call-to-action p{
+        max-width: 87%;
+        margin: auto;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
